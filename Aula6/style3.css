@@ -1,0 +1,18 @@
+
+.container1 {
+    border-right: 20px solid salmon;
+    border-bottom: 10px solid salmon;
+    background-color: lightblue;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.container2 {
+    min-width: 30vw;
+    border: 20px dotted purple;
+}
+
+.container3 {
+    border: 20px double purple;
+    width: 30vw;
+}

@@ -1,0 +1,27 @@
+.botao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 75%;
+}
+
+h1, a {
+    padding-left: 10%;
+}
+
+.quadrado {
+    margin-top: 2%;
+    width: 100%;
+    height: 20%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quadrado > p {
+    font-size: 500%;
+}

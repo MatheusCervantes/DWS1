@@ -1,0 +1,25 @@
+
+.container {
+    background-color: lightcoral;
+}
+
+.container2 {
+    background-color: grey;
+    background-image: url("WhatsApp\ Image\ 2023-09-12\ at\ 09.07.52.jpeg");
+    background-repeat: round;
+    background-size: 49px;
+    color: blue;
+}
+
+.container3 {
+    background-color: rgba(144, 238, 144, 0.5);
+}
+
+body{
+    background-image: url("WhatsApp\ Image\ 2023-09-12\ at\ 09.07.52.jpeg");
+    background-position: right bottom;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    min-height: 82.5vh;
+    background-color: lightblue;
+}

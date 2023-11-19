@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Praticando 1</title>
+</head>
+
+<body>
+
+    <h1>Praticando 1 - Formulário HTML</h1>
+    <a href="index.html">Voltar ao menu principal</a>
+    <br>
+    <br>
+
+    <form action="" method="get">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome">
+
+        <br>
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com">
+
+        <br>
+        <label for="marca">Marca de carro preferida: </label>
+        <select name="marca" id="marca">
+            <option value="chevrolet">Chevrolet</option>
+            <option value="ford">Ford</option>
+            <option value="jeep">Jeep</option>
+            <option value="mitsubishi">Mitsubishi</option>
+            <option value="nissan">Nissan</option>
+            <option value="peugeot">Peugeot</option>
+            <option value="toyota">Toyota</option>
+            <option value="volkswagen">Volkswagen</option>
+        </select>
+
+        <br>
+        <label for="obs">Observações: </label> <br>
+        <textarea for="obs" name=obs rows="5" cols="35"></textarea>
+
+        <br><br>
+
+        <label for="favlanguage" id="favlanguage">Linguagem Web favorita: </label>
+        <input type="radio" id="html" name="favlanguage" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="favlanguage" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript" name="favlanguage" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <br><br>
+
+        <label for="filmes" id="filmes">Filmes que eu quero ver quando lançar: </label> <br>
+        <input type="checkbox" id="avengers" name="filmes">
+        <label for="avengers">Avengers: The Kang Dynasty</label> <br>
+        <input type="checkbox" id="aquaman" name="filmes">
+        <label for="aquaman">Aquaman 2: O Reino Perdido</label> <br>
+        <input type="checkbox" id="themarvels" name="filmes">
+        <label for="themarvels">Ther Marvels</label> <br>
+        <input type="checkbox" id="deadpool" name="filmes">
+        <label for="deadpool">Deadpool 3</label> <br>
+
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+
+</html>

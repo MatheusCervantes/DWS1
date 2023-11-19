@@ -1,0 +1,11 @@
+p, h1, li {
+    text-align: justify;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.pag {
+    margin: 2%;
+}

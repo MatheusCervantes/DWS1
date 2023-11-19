@@ -1,0 +1,16 @@
+
+.container {
+    border: 1vh solid;
+    font-size: 2vw;
+    width: 65%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container1 {
+    border: 6px solid;
+    font-size: 14pt;
+    width: 620px;
+}

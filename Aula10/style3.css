@@ -1,0 +1,49 @@
+.botao {
+    width: 15%;
+    height: 8vh;
+    border: solid 2px black;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.botao-reset {
+    background-color: white;
+    width: 10%;
+    height: 6vh;
+    border: solid 2px black;
+    margin-left: 5.5%;
+    margin-top: 0;
+    font-size: 225%;
+    cursor: pointer;
+}
+
+.bt_red {
+    background-color: red;
+}
+
+.bt_green {
+    background-color: green;
+}
+
+.bt_blue {
+    background-color: blue;
+}
+
+.bt_yellow {
+    background-color: yellow;
+}
+
+.bt_pink {
+    background-color: rgb(255, 0, 255);
+}
+
+#preview {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 800%;
+    text-align: center;
+}
+
+.container {
+    margin-left: 7.5%;
+}

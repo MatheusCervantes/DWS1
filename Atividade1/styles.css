@@ -1,0 +1,87 @@
+/* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd; /* Adicione uma borda para a "box" */
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos para os títulos */
+  h1, h2 {
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  /* Estilos para os parágrafos */
+  p {
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  /* Estilos para as imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  img + br + i {
+    display: block;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+  }
+
+  /* Estilos para links */
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  /* Estilos para links quando hover */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para texto em negrito */
+  strong, b {
+    font-weight: bold;
+  }
+  
+  /* Estilos para texto em itálico */
+  i {
+    font-style: italic;
+  }
+  
+  /* Estilos para quebras de linha */
+  br {
+    clear: both;
+  }
+  
+  /* Estilos para a seção de fontes */
+  .sources {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Estilos para os links das fontes */
+  .sources a {
+    color: #999;
+  }
+  
+  .sources a:hover {
+    color: #666;
+  }
+  

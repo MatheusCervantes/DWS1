@@ -1,0 +1,22 @@
+.pag {
+    margin: 2%;
+    width: 30%;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.flexform{
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 2%;
+}

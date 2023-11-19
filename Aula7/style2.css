@@ -1,0 +1,49 @@
+.body{
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.container1{
+    background-color: green;
+    padding: 5%;
+    float: right;
+    margin-left: 2.5%;
+}
+
+.container2{
+    clear: both;
+    float: left;
+    background-color: green;
+    padding: 5%;
+    padding-right: 25%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+}
+
+.container3{
+    float: left;
+    background-color: green;
+    padding: 5%;
+    padding-right: 25%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+}
+
+.container4{
+    clear: both;
+    float: left;
+    margin-top: 2.5%;
+    background-color: green;
+    padding: 5%;
+    padding-bottom: 25%;
+    margin-right: 2.5%;
+}
+
+.container5{
+    float: right;
+    background-color: green;
+    padding: 5%;
+    padding-bottom: 25%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}

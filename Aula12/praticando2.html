@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <div class = "container">
+        <h1>Praticando 2 - JavaScript - Cores (click e mouse) com JQuery</h1>
+        <a href="index.html">Voltar ao Menu</a>
+        <br>
+        <br>
+    </div>
+
+    <div class="row justify-content-center">
+        <div onmouseover="corPreview('bt_red')" onmouseout="corPreviewRemove()" onclick="corFixa('bt_red')"
+            class="botao bt_red"></div>
+        <div onmouseover="corPreview('bt_green')" onmouseout="corPreviewRemove()" onclick="corFixa('bt_green')"
+            class="botao bt_green"></div>
+        <div onmouseover="corPreview('bt_blue')" onmouseout="corPreviewRemove()" onclick="corFixa('bt_blue')"
+            class="botao bt_blue"></div>
+        <div onmouseover="corPreview('bt_yellow')" onmouseout="corPreviewRemove()" onclick="corFixa('bt_yellow')"
+            class="botao bt_yellow"></div>
+        <div onmouseover="corPreview('rgb(255, 0, 255)')" onmouseout="corPreviewRemove()" onclick="corFixa('bt_pink')"
+            class="botao bt_pink"></div>
+    </div>
+    <div class="row ms-lg-5">
+        <div onclick="reset()" class="botao-reset d-flex justify-content-center align-items-center">Reset</div>
+    </div>
+
+    <div id="preview">
+        Preview
+    </div>
+
+    <script src="scriptjs_praticando3.js"></script>
+</body>
+
+</html>

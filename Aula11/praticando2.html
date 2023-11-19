@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Praticando 2</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <h1>Praticando 2 - Formulário com validações</h1>
+    <a href="index.html">Voltar ao Menu</a>
+    <br>
+    <br>
+
+    <div class="container">
+        <form class="row g-3">
+            <form class="row g-3">
+                <div class="col-md-5">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control is-invalid" id="nome" required>
+                    <div id="nomefeedback" class="invalid-feedback">
+                        Insira seu nome.
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control is-invalid" id="email" required>
+                    <div id="emailfeedback" class="invalid-feedback">
+                        Insira seu e-mail.
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <input type="text" class="form-control is-invalid" id="telefone" required>
+                    <div id="telefonefeedback" class="invalid-feedback">
+                        Insira seu telefone.
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <label for="idade" class="form-label">Idade:</label>
+                    <input type="text" class="form-control is-invalid" id="idade" required>
+                    <div id="idadefeedback" class="invalid-feedback">
+                        Insira sua idade.
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <label for="observacao" class="form-label">Observações:</label>
+                    <textarea class="form-control is-invalid" id="observacao" rows="3"></textarea>
+                    <div id="observacaofeedback" class="invalid-feedback">
+                        Insira alguma observação.
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    <button class="btn btn-warning" type="reset">Limpar</button>
+                </div>
+            </form>
+    </div>
+    </form>
+    <script src="scriptjs_praticando2.js"></script>
+    <script src="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

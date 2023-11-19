@@ -1,0 +1,51 @@
+.container {
+    margin: 0 auto;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.container > p {
+    text-decoration: underline;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.vermelho {
+    border: 3px black solid;
+    width: 10vh;
+    height: 10vh;
+    background-color: red;
+    margin-right: 2%;
+}
+
+.azul {
+    border: 3px black solid;
+    width: 10vh;
+    height: 10vh;
+    background-color: blue;
+    margin-right: 2%;
+}
+
+.verde {
+    border: 3px black solid;
+    width: 10vh;
+    height: 10vh;
+    background-color: green;
+    margin-right: 2%;
+}
+
+.container_quadrados {
+    display: flex; 
+}
+
+.selecionado {
+    position: absolute;
+    border: 3px yellow solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

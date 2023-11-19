@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Praticando 2</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Praticando 2 - Formulário HTML Estilzado</h1>
+    <a href="index.html">Voltar ao menu principal</a>
+    <br>
+    <br>
+
+    <form action="" method="get">
+        <div class="flex">
+
+            <div class="flex-label">
+                <label for="nome">Nome: </label>
+                <label for="email">E-mail: </label>
+                <label for="marca" class="ajuste1">Marca de carro preferida: </label>
+                <label for="obs" class="ajuste2">Observações: </label>
+                <label for="favlanguage" id="favlanguage" class="ajuste3">Linguagem Web favorita: </label>
+                <label for="filmes" id="filmes" class="ajuste4">Filmes que eu quero ver quando lançar: </label>
+                <div><button type="submit">Enviar</button></div>
+            </div>
+
+            <div class="flex-input">
+                <div>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <div>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com">
+                </div>
+
+                <div>
+                    <select name="marca" id="marca">
+                        <option value="chevrolet">Chevrolet</option>
+                        <option value="ford">Ford</option>
+                        <option value="jeep">Jeep</option>
+                        <option value="mitsubishi">Mitsubishi</option>
+                        <option value="nissan">Nissan</option>
+                        <option value="peugeot">Peugeot</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="volkswagen">Volkswagen</option>
+                    </select>
+                </div>
+
+                <div>
+                    <textarea for="obs" name=obs rows="5" cols="35"></textarea>
+                </div>
+
+                <div>
+                    <div class="container">
+                        <input type="radio" id="html" name="favlanguage" value="HTML">
+                        <label for="html"><img src="https://logospng.org/download/html-5/logo-html-5-512.png"></label>
+                        <input type="radio" id="css" name="favlanguage" value="CSS">
+                        <label for="css"><img src="https://logospng.org/download/css-3/logo-css-3-2048.png"
+                                alt=""></label>
+                        <input type="radio" id="javascript" name="favlanguage" value="JavaScript">
+                        <label for="javascript"><img
+                                src="https://logospng.org/download/javascript/logo-javascript-icon-1024.png"
+                                alt=""></label>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container">
+                        <input type="checkbox" id="avengers" name="filmes">
+                        <label for="avengers"><a href="https://www.adorocinema.com/filmes/filme-269068/" target="_blank">Avengers: The Kang Dynasty</a></label>
+                    </div>
+                    <div class="container">
+                        <input type="checkbox" id="aquaman" name="filmes">
+                        <label for="aquaman"><a href="https://patrocine.com.br/?pg=filme&id=1156" target="_blank">Aquaman 2: O Reino Perdido</a></label>
+                    </div>
+                    <div class="container">
+                        <input type="checkbox" id="themarvels" name="filmes">
+                        <label for="themarvels"><a href="https://www.imdb.com/title/tt10676048/" target="_blank">Marvels</a></label>
+                    </div>
+                    <div class="container">
+                        <input type="checkbox" id="deadpool" name="filmes">
+                        <label for="deadpool"><a href="https://ovicio.com.br/deadpool-3-data-de-estreia-deve-ser-mantida/" target="_blank">Deadpool 3</a></label>
+                    </div>
+                </div>
+
+                <button type="reset">Limpar</button>
+
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>

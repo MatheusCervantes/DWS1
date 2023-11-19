@@ -1,0 +1,29 @@
+.container1 {
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 20px dashed;
+    width: 50%;
+    padding-bottom: 4%;
+}
+
+.container2 {
+    background-color: lightblue;
+    border: 10px solid blue;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container3 {
+    border: 7.5px solid red;
+    border-radius: 50%;
+    background-color: white;
+    width: 30%;
+    padding-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}

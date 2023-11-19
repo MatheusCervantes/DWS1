@@ -1,0 +1,98 @@
+p, h2, h1{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+h1{
+    margin-bottom: 0;
+    font-size: 1.5vw;
+}
+
+p{
+    font-size: 0.75vw;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(178, 245, 182)
+}
+
+i{
+    font-weight: bold;
+}
+
+header{
+    background-color: rgb(178, 245, 182);
+    border-bottom: 2px solid rgb(14, 165, 25);
+    padding-bottom: 1vw;
+    text-indent: 2vw;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-top: 2px solid rgb(14, 165, 25);
+}
+
+/*Links*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: white;
+}
+
+.flex-container-quadrados {
+    display: flex;
+    flex-flow: row wrap;
+    width: 77%;
+    margin-left: 0.3vw;
+    background-color: white;
+    align-content: flex-start;
+}
+
+/*Quadrados*/
+.flex-container-quadrados > div {
+    width: 10vw;
+    height: 4vw;
+    border: 2px solid black;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+/*Título do site*/
+.flex-container-quadrados > h2 {
+    flex-basis: 100%;
+    width: 0;
+    margin-left: 0.5vw;
+}
+
+/*Box Lateral*/
+.container-lateral{
+    border-left: 2px solid rgb(14, 165, 25);
+    width: 22%;
+}
+
+/*Parágrafo box lateral*/
+.container-lateral > p{
+    text-align: justify;
+    text-indent: 0.5vw;
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+
+/*Título box lateral*/
+.container-lateral > h2{
+    text-align: center;
+}

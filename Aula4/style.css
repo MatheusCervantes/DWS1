@@ -1,0 +1,46 @@
+/*Praticando 1*/
+
+.container {
+    background-color: gray;
+}
+
+.color_red{
+    color: red;
+}
+
+.color_blue{
+    color: blue;
+}
+
+.backgroundblue {
+    background-color: lightblue;
+}
+
+.backgroundorange {
+    background-color: lightcoral;
+}
+
+/*Praticando 2*/
+.color_lightgreen{
+    background-color: lightgreen;
+}
+
+.color_green{
+    background-color: green;
+}
+
+.color_darkgreen{
+    background-color: darkgreen;
+}
+
+.color_redback{
+    background-color: red;
+}
+
+.color_darkred{
+    background-color: darkred;
+}
+
+.color_darkdarkred{
+    background-color: rgb(61, 0, 0);
+}

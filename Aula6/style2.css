@@ -1,0 +1,19 @@
+
+.container1 {
+    background-color: lightgreen;
+    border-bottom: 20px solid darkblue;
+    border-top: 20px solid darkblue;
+    min-height: 50vh;
+    font-family: Lobster;
+    font-size: 2em;
+}
+
+.container2 {
+    background-color: lightcoral;
+    border-bottom: 20px solid orangered;
+    border-top: 20px solid orangered;
+    min-height: 50vh;
+    font-family: Lobster;
+    font-size: 2em;
+    text-align: right;
+}
